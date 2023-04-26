@@ -1,0 +1,188 @@
+.orange{
+    background-color: white;
+    border-color: orangered;
+    border-width: 2px;
+    transition-duration: 0.4s;
+    padding: 12px;
+    height: 55px;
+}
+.orange:hover{
+    background-color: orangered;
+    border-color: orangered;
+}
+
+
+a{
+    text-decoration: none;
+    color: currentColor;
+}
+.book{
+    border: 2px solid orangered;
+    font-weight: 700;
+    padding: 12px;
+    border-radius:10px;
+    font-size: 20px;
+    transition-duration: 0.4s;
+}
+.con{
+    position: relative;
+}
+.book:hover{
+    background-color: orangered;
+    border-color: orangered;
+}
+.dark{
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 1;
+    transition-duration: 0.4s;
+}
+.book:hover .dark{
+    opacity: 0;
+}
+
+.icons{
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 140px;
+    display: flex;
+    margin-left: 500px;
+    
+}
+.icons div{
+    margin: 5px;
+    margin-top:25px;
+    
+}
+.icons div:hover{
+    margin-top:25px;
+    cursor: pointer;
+    animation-name: icon;
+    animation-iteration-count:1;
+    animation-duration:2s;
+    animation-timing-function: linear;
+}
+@keyframes icon{
+    0% {margin-top:25px;}
+    100% {margin-top:0px;}
+}
+.info{
+    width: 450px;
+    height: 300px;
+    margin: 100px;
+    margin-left: 50px;
+    
+}
+.info h1{
+    font-size: 20px;
+    font-weight: 900;
+
+}
+.info p{
+    font-weight: 500;
+}
+.lm{
+  padding: 10px;
+  border: 2px solid orangered ;
+  width: 200px;
+  font-weight: 500;
+}
+.lm:hover{
+    cursor: pointer;
+}
+
+.c1{
+    width: 400px;
+    height: 500px;
+    border-radius:10px;
+    
+}
+::-webkit-scrollbar{
+    width: 15px;
+}
+::-webkit-scrollbar-thumb{
+    width: 15px;
+    border-radius: 10px;
+    background-color: orangered;
+}
+.buttonreg{
+    background-color: orangered;
+    padding: 15px;
+    width: 200px;
+    border-radius: 15px;
+    color: white;
+    font-weight: 500;
+    font-size: 18px;
+    justify-content: center;
+
+
+}
+.last{
+    justify-content: center;
+}
+.morayaimg{
+    position: absolute;
+    
+}
+.stuff88{
+    margin: 50px;
+    width: 300px;
+    margin-top: 20px;
+}
+.list1 ul{
+    list-style: none;
+    color: white;
+    font-weight: 600;
+    font-size: 19px;
+
+}
+.list1 ul li{
+    margin: 20px;
+}
+.occ{
+    background-color: rgb(201, 198, 198);
+    width: 1100px;
+    height: 450px;
+    margin-left: 100px;
+    border-radius: 20px;
+
+}
+.occ-ul li{
+    list-style: none;
+    font-weight: 500;
+    font-size: 30px;
+    margin-top:20px ;
+
+}
+.occ-ul{
+ margin: 10px;
+ 
+}
+.line{
+    width: 80px;
+    height: 2px;
+    background-color: orangered;
+    margin-top: 10px;
+}
+.occ2{
+    width:400px;
+    text-align: center;
+    justify-content: center;
+    margin-left: 300px;
+    margin-top: 50px;
+}
+.footer-img{
+    margin-left: 100px;
+    margin-top: 70px;
+}
+.sep-line{
+    width: 500px;
+    height: 2px;
+    color: #ffffff;
+}
+
+
+
+
